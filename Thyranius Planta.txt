@@ -1,0 +1,22 @@
+•1: imagem de fundo transparente + css collors: 
+
+•2: favicon icon + link insta no rodapé:
+
+•3: (login) : pendente
+
+•4: Titulo,guias de imagens/manuais/livros,links no rodapé para sites de 3D&T
+
+    ->4.1: Guia de Imagens:
+
+		-4.1.1: Imagens(passou o mouse em cima = ativa ontouch e aumenta a guia para 4.1.2:)
+		-4.1.2: Guia mostra: "Mundo", "Personagens", "Skills", "Diversos"
+
+    ->4.2: Manuais:
+
+		-4.2.1: Manuais(passou o mouse em cima = ativa ontouch e aumenta a guia para 4.2.2:)
+		-4.2.2: Guia mostra: "Manuais de Regras", "Manuais de Skills", "Manuais das Criaturas", "Manuais dos Mundos".
+
+    ->4.3: Livros:
+
+		-4.3.1: Livros(passou o mouse em cima = ativa ontouch e aumenta a guia para 4.3.2:)
+		-4.3.2: Guia mostra: "História e Eventos de Thyranius", "Historia e eventos externos", "Livros dos Personagens". 		

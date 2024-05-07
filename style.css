@@ -1,0 +1,40 @@
+body {
+    background: rgba(23, 79, 199, 0.826)
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+.background {
+    background-color: rgba(23, 79, 199, 0.826);
+    text-align: center;
+    background-image: url(img/yoshimihasiteTRANSPAFULL.png);
+    height: 545px;
+    background-position: center; /* Focar no centro da imagem */
+    background-size: contain;
+      
+    
+}
+
+.box1 { 
+    background: white;
+    width: 120px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+
+
+footer {
+   color: white;
+   text-align: center;
+   font-style: italic;
+   
+}
