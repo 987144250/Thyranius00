@@ -1,14 +1,16 @@
 body {
-    background: rgba(23, 79, 199, 0.826)
+    background: rgba(79, 103, 154, 0.826)
 }
 
 header {
     color: white;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .background {
-    background-color: rgba(23, 79, 199, 0.826);
+    background-color: rgba(75, 21, 66, 0.836);
     text-align: center;
     background-image: url(img/yoshimihasiteTRANSPAFULL.png);
     height: 545px;
