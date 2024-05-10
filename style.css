@@ -7,12 +7,15 @@ header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    
 }
 
 .background {
-    background-color: rgba(75, 21, 66, 0.836);
-    text-align: center;
-    background-image: url(img/yoshimihasiteTRANSPAFULL.png);
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    background-image: url(img/Yoshimiha2TRANSPA1.png);
     height: 545px;
     background-position: center; /* Focar no centro da imagem */
     background-size: contain;
@@ -20,16 +23,45 @@ header {
     
 }
 
+
+#marquee { 
+    font-weight: bold;
+    
+    
+}
+
 .box1 { 
-    background: white;
-    width: 120px;
-    height: 300px;
+    background: rgba(17, 90, 158, 0.37);
+    width: 250px;
+    height: 150px;
     display: block;
     border-radius: 10px;
     padding: 15px;
     margin: auto;
     border: 1px solid black;
+  
+    
+    
 
+}
+
+input {
+    font: normal 10pt Arial;
+    width: 175px;
+    
+}
+
+.senha1 {
+    width: 187px;
+}
+
+.login {
+    text-align: center;
+}
+
+.entry {
+    
+    width: 75px;
 }
 
 
