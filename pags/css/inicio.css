@@ -1,0 +1,144 @@
+body {
+    background: rgba(79, 103, 154, 0.826)
+}
+
+header {
+    color: blueviolet;
+    font: normal 12pt Arial;
+    
+
+}
+
+.background {
+    background-color: rgba(150, 19, 19, 0.95);
+    background-image: url(dices01.jpg); 
+    font: normal 8pt Arial;
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    gap: 260px;
+}
+
+/* -------------------------------- box imagens ---------------------------- */
+
+
+.box-imagens {
+    margin-top: 20px;
+    text-align: center;
+    font: italic 15pt cursive;
+    background: rgba(213, 213, 214, 0.799);
+    width: 140px;
+    height: 100px;
+    transition: height 0.7s ease;
+    border-radius: 15px;
+    border: 1.5px solid black;
+    margin-left: 150px;
+    line-height: 15px;
+    overflow: hidden;
+    
+}
+
+.imgtext {
+    margin-top: 10px;
+}
+
+.linha01 {
+    margin: -10px ;
+    border: 1px solid black;
+}
+
+.lista-box01 {
+    margin-left: -40px;
+    margin-top: 25px;
+    
+}
+
+
+
+/*----------------------------------------------*/
+
+/* -------------------------------- box livros ---------------------------- */
+
+.box-livros {
+    margin-top: 20px;
+    background: rgba(213, 213, 214, 0.799);
+    width: 140px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: height 0.7s ease;
+    border: 1.5px solid black;
+    line-height: 15px;
+    text-align: center;
+    font: italic 15pt cursive;
+    overflow: hidden;
+    
+}
+
+.livrostext {
+    margin-top: -3px;
+}
+
+.linha02 {
+    margin: -15px ;
+    border: 1px solid black;
+}
+
+.lista-box02 {
+    margin-left: -40px;
+    margin-top: 25px;
+    
+}
+
+
+/*----------------------------------------------*/
+
+/* -------------------------------- box manuais ---------------------------- */
+
+.box-manuais {
+    margin-top: 10px;
+    background: rgba(213, 213, 214, 0.799);
+    width: 140px;
+    height: 100px;
+    transition: height 0.7s ease;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 1.5px solid black;
+    margin-right: 150px;
+    line-height: 15px;
+    font: italic 15pt cursive;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.manuaistext {
+    margin-top: 10px;
+}
+
+.linha03 {
+    margin: -10px ;
+    border: 1px solid black;
+}
+
+.lista-box03 {
+    margin-left: -40px;
+    margin-top: 25px;
+    
+}
+
+/*----------------------------------------------*/
+
+li {
+    margin-bottom: 20px;
+}
+
+footer { 
+    color: brown;
+    font-style: bold;
+    font-size: 12pt;
+    text-align: center;
+    padding: 15px;
+}
+

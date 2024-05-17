@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTOU LHE OBSERVANDO</title>
+    <link rel="shortcut icon" href="img/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="pags/css/inicio.css">
+</head>
+<body>
+    <header>
+       
+    </header>
+
+    <section>
+
+        <div class="background" >
+
+            <!-- Mouse entrando e saindo das box(usa o this para ativar o gatilho individualmente onde mouse tocar ao inves de criar variáveis e atribuir gatilho em ambas funções no arquivo JS) -->
+            <div  class="box-imagens" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)"> 
+                <p class="imgtext">Imagens:</p>
+                <hr class="linha01">
+                
+                <ul class="lista-box01">
+                    <li>Mundo</li>
+                    
+                    <li>Personagens</li>
+                    
+                    <li>Skills</li>
+                    
+                    <li>Diversos</li>
+                    
+                </ul>
+            
+            </div>
+            
+            <div class="box-livros" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)">
+                <p class="livrostext">Livros:</p>
+                <hr class="linha02">
+                
+                <ul class="lista-box02">
+                    <li></li>
+                    
+                    <li>Personagens</li>
+                    
+                    <li>Skills</li>
+                    
+                    <li>Diversos</li>
+                    
+                </ul>
+            
+
+
+            </div>
+
+            <div class="box-manuais" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)">
+                <p class="manuaistext">Manuais:</p>
+                <hr class="linha03">
+                
+                <ul class="lista-box03">
+                    <li>Manuais de Regras</li>
+                    
+                    <li>Manuais de Skills</li>
+                    
+                    <li>Manuais das Criaturas</li>
+                    
+                    <li>Manuais dos Mundos</li>
+                    
+                </ul>
+            
+
+
+            </div>
+
+
+        </div>
+
+        
+
+    </section>
+
+    <footer>
+        <a href="https://bibliotecaelfica.org/category/3dt-alpha/" target="_blank" >Clique aqui para baixar manuais e conteúdos do sistema que inicialmente inspirou o projeto Thyranius!</a>
+    </footer>
+
+    <script src="pags/css/inicio.js"></script>
+</body>
+</html>
