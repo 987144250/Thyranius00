@@ -19,4 +19,21 @@
     ->4.3: Livros:
 
 		-4.3.1: Livros(passou o mouse em cima = ativa ontouch e aumenta a guia para 4.3.2:)
-		-4.3.2: Guia mostra: "História e Eventos de Thyranius", "Historia e eventos externos", "Livros dos Personagens". 		
+		-4.3.2: Guia mostra: "História e Eventos de Thyranius", "Historia e eventos externos", "Livros dos Personagens". 
+
+
+
+Pt2: Guia de Imagens:
+
+•1: 
+
+
+
+
+
+
+
+
+
+
+ 		
