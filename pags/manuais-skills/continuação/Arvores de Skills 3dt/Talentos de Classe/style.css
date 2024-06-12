@@ -1,0 +1,20 @@
+body {
+    background: rgba(79, 103, 154, 0.826)
+}
+
+header {
+    color: black;
+    font: normal 15pt cursive;
+    text-align: left;
+}
+
+#arvore {
+    width: 400px;
+    height: 700px;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    border: 1.5px solid black;
+    border-radius: 100%;
+
+}

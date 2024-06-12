@@ -12,7 +12,9 @@ function aumentarjanela(element) { // usa-se 'element' nos parenteses quando nã
     setTimeout(function() {
         // Mostra o texto com transição
   
-    if (element.classList.contains('box-imagens')) { // use o classList.contains(nome da janela) para criar condições dentro dela(surgir)
+        // use o classList.contains(nome da janela) para criar condições dentro dela(surgir):
+
+    if (element.classList.contains('box-imagens')) { // "Se o elemento clicado foi a janela: imagens:"
         element.querySelector('.lista-box01').style.opacity = "1";
         element.querySelector('.lista-box01').style.display = 'block'
     } else if (element.classList.contains('box-livros')) {

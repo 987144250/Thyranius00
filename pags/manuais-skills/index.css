@@ -1,0 +1,21 @@
+body {
+    background: rgba(79, 103, 154, 0.826)
+}
+
+header {
+    color: black;
+    font: bold 15pt cursive;
+    text-align: center;
+}
+
+#lista-M {
+    width: 170px;
+    height: 400px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font: normal 11pt cursive; 
+}
+
