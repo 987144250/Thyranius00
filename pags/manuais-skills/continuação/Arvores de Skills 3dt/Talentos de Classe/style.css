@@ -223,8 +223,12 @@ p {
     font: italic 13pt cursive;
 }
 
-.manuais {
+#first-word-box01, #first-word-box02 {
     margin-top: -2px;
+}
+
+.first-word-box03 {
+    margin-top: 15px;
 }
 
 /* -------------------------------- BOX IMG DESKTOP ---------------------------- */
