@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta Presteza</title>
+</head>
+<style>
+    body {
+        background-color: aliceblue;
+    }
+
+    header {
+        display: block;
+        width: 1240px;
+        height: 70px;
+        background-color: aliceblue;
+        /*Position: fixed */
+    }
+
+    #Passiva {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #img {
+        margin-top: -100px;
+        margin-left: 500px;
+        height: 400px;
+        display: flex;
+    }
+
+    section {
+        text-indent: 20px;
+        background-color: rgb(188, 167, 188);
+        width: 1240px;
+        height: 720px;
+        border: 1.5px solid black;
+        border-radius: 10px;
+        /*Position: fixed */
+        
+    }
+    
+    #img02 {
+        margin-top: -210px;
+        margin-left: 595px;
+        height: 60px;
+        display: flex;
+    }
+
+    #titulo {
+        text-align: center; 
+        font:bold 15pt cursive
+    }
+
+    #div {
+        display: flex;
+        
+    }
+
+    p {
+        font-size: 10pt;
+    }
+
+    #t01 { /* TABELA 1 - ALTA PRESTEZA */
+            width: 250px;
+            border-collapse: collapse;
+            font-size: 10pt;
+            margin-left: 80px;
+        }
+    
+    th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+    th {
+        background-color: #f2f2f2;
+        
+        }
+    
+    .Antecipar {
+        background-color: brown;
+    }
+
+    .anteci_Nv1, .anteci_Nv2 {
+        color: brown;
+        text-align: center;
+       
+    }
+
+    #skill01_text {
+        margin-top: -240px;
+        margin-left: 55%;
+        text-align: left;
+    }
+
+
+    #skill02_text {
+        text-indent: 20px;
+        margin-top: -284px;
+        margin-left: 58%;
+        text-align: left;
+    }
+
+    #t02 { /* TABELA 2 - PARKOU DIVINO */
+        width: 250px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 65%;
+        margin-top: -145px;
+        
+
+    }
+
+    .Parkou {
+        background-color: brown;
+    }
+
+    .parkou_Nv1, .parkou_Nv2 {
+        color: brown;
+        text-align: center;
+       
+    }
+
+
+</style>
+<body>
+    <header>
+        <h2 id="titulo">👁 Alta Presteza</h2>
+        <p style="text-align: center;"><strong>Requisitos</strong>:  Agi 4, Movimentação Livre, Esportes, Especialista Nv12 ou 2 Kit Especialista nv 5.</p>
+    </header>
+
+    <section>
+        <br>
+        
+        <p id="Passiva"><strong>Passiva,<color style="color: blueviolet;">"Safo"</color>:</strong> +1 INI,+1 percep,+1 para testes de esquiva e desvio,aumenta em 50% a quantia de esquivas totais e +1 desvio total </p> <br>
+
+        <p style="color: brown;padding-left: 210px;"><strong>•Antecipar:</strong></p>
+        <p><strong>Descrição</strong>: ao ser alvejado por 1º ATK de inimigo naquele turno, considere que você <br> 
+            </p><p style="padding-left: 62px; margin-top: -13px;">tenha uma ação guardada, podendo usa-la como movimento se preferir. <br>&nbsp; 
+            &nbsp; &nbsp;&nbsp;Só não é permitido usa-la para atacar. Não irá funcionar se Dex de inimigo superar sua Perc.</p>
+
+        <table id="t01"> 
+            <thead> <!-- TABELA SKILL 1 = ALTA PRESTEZA -->
+                <tr>
+                    <th class="Antecipar">Antecipar</th>
+                    <th>Sistema</th>
+                    <th>Custo</th>
+                    <th>Dura./Alcan</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="anteci_Nv1"><strong>Nv1</strong></td>
+                    <td>Percep x Agi</td>
+                    <td>-----</td>
+                    <td>INST</td>
+                    <td>-----</td>
+                </tr>
+                <tr>
+                    <td class="anteci_Nv2"><strong>Nv2</strong></td>
+                    <td>Percep +1 x Agi</td>
+                    <td>-1 pm caso não use mov.</td>
+                    <td>INST</td>
+                    <td>Permite uso de Perícia e Vant.</td>
+                </tr>
+            </tbody>
+        </table>
+             
+        <div id="skill02_text">
+            <p style="color: brown;padding-left: 210px;"><strong>•Parkou Divino:</strong></p>
+            
+           
+            <p><strong>Descrição</strong>: execute manobras arriscadas com facilidade ao usar movimento, como: andar nas paredes,passar por locais apertados em alta velocidade, misturar acrobacias com escalada e corrida ao mesmo tempo apenas com 1 mov; Gastando -1pm Irá ignorá lhe garantir um sucesso automático em testes simples e moderados,veja a tabela abaixo:
+                </p>
+        </div>
+
+        <div>
+            <img id="img" src="Alta_Presteza-removebg.png" alt="Skill Tree">
+            <img id="img02" src="assassin.png" alt="mini">
+        </div>
+
+    </body>
+
+        <table id="t02"> 
+            <thead> <!-- TABELA SKILL 2 = PARKOU DIVINO -->
+                <tr>
+                    <th class="Parkou">Parkou Divino</th>
+                    <th>Sistema</th>
+                    <th>Custo</th>
+                    <th>Dura./Alcan</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="parkou_Nv1"><strong>Nv1</strong></td>
+                    <td>Testes "difíceis" = <strong>-75%</strong> do redutor; Testes "muito dificeis" = <strong>-50%</strong>.</td>
+                    <td>- 1pm</td>
+                    <td>INST</td>
+                    <td><strong>+1 Esquiva</strong> ao usar acrobacias</td>
+                </tr>
+                <tr>
+                    <td class="parkou_Nv2"><strong>Nv2</strong></td>
+                    <td>O Talento irá garantir acerto auto para todos os testes(ver extra).</td>
+                    <td>-1 pm</td>
+                    <td>INST</td>
+                    <td>Testes "impossiveis" irão exigir alta AGI; <strong>+1 Acer</strong> ao usar acrobacias.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    
+</html>
