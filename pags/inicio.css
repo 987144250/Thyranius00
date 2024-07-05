@@ -1,0 +1,362 @@
+body {
+    background: rgba(79, 103, 154, 0.826)
+}
+
+header {
+    color: blueviolet;
+    font: normal 12pt Arial;
+    
+
+}
+
+.background {
+    background-color: rgba(150, 19, 19, 0.95);
+    background-image: url(dices01.jpg); 
+    font: normal 8pt Arial;
+    background-position: center;
+    background-size: contain;
+    height: 530px;
+    display: flex;
+    gap: 260px;
+}
+
+
+/* -------------------------------- uso da @media em mobiles etc ---------------------------- */
+
+@media (max-width: 768px) {
+    /* Estilos CSS aqui serão aplicados em telas com largura maxima de 768 pixels ou menos (por exemplo, mobiles) */
+   
+    
+.background {
+    
+    background-position: bottom;
+    background-size: contain;
+    height: 530px;
+    width: 380px;
+    display: flex;
+    text-align: left;
+    }
+        
+    
+.box-imagens {
+    display: none;   
+}  
+
+.box-livros {
+    display: none;  
+}
+
+.box-manuais {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+/* ------------------ IMAGENS ------ BOOKS ------ MANUAIS ------------conteúdo dentro das box----------*/
+
+.boximg .boxlistimg, 
+.boxbook .boxlistbook,
+.boxmanual .boxlistmanual {
+    display: block; 
+    margin: -1%;
+    padding: 0;
+    text-align: center;
+    
+}
+
+/* ------------------------------------------------- IMAGENS ----------------------------------*/
+
+.boximg {
+    width: 68px;
+    height: 150px;
+    background-color: rgba(213, 213, 214, 0.737);
+    border-radius: 15px;
+    border: 1.5px solid black;
+    margin-top: 30px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    font: normal 15 cursive;
+    flex: 1;
+    
+
+}
+
+/* IMPORTANTE: uma vez que foi ordenado que boximg fique com display = none,ele só ira surgir dentro de resolução mobile
+               caso use essa config abaixo,nao adianta usar apenas "boximg {display=block}" dentro de config @media(resoluti) */
+
+.linha-img {
+    margin-top: -4mm;
+    border: 1px solid black;
+}
+
+.mundo-img-mobile, .personagens-img-mobile, .skills-img-mobile, .diversos-img-mobile { /* <p> dentro dos três boxlistimg */
+    font: italic 9pt cursive;
+    margin-top: 10%;
+    
+}
+
+.background .link-biblioteca {
+    display: block;
+    
+}
+
+/*--------------------------------------------------- LIVROS -------------------------------------------*/
+
+.boxbook {
+    width: 68px;
+    height: 150px;
+    background-color: rgba(213, 213, 214, 0.737);
+    border-radius: 15px;
+    border: 1.5px solid black;
+    margin-top: -153px;
+    margin-left: 145px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.linha-livros{
+    margin-top: -4mm;
+    border: 1px solid black;
+}
+
+.historia-livros-mobile, .personagens-livros-mobile, .skills-livros-mobile, .diversos-livros-mobile {
+
+font: italic 9pt cursive;
+margin-top: 10%;
+}
+
+/* ------------------------------------------------- MANUAIS ----------------------------------*/
+
+.boxmanual {
+    width: 68px;
+    height: 240px;
+    background-color: rgba(213, 213, 214, 0.737);
+    border-radius: 15px;
+    border: 1.5px solid black;
+    margin-top: -153px;
+    margin-left: 260px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.linha-manuais {
+    margin-top: -4mm;
+    border: 1px solid black;
+}
+
+.regras-manuais-mobile, .skills-manuais-mobile, .criaturas-manuais-mobile, .mundos-manuais-mobile {
+    font: italic 9pt cursive;
+    margin-top: 10%;
+}
+
+
+.background .DEDE {
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin-left: -310px;
+    margin-top: 440px;
+}
+
+.link-biblioteca { 
+    
+    font-style: bold;
+    font-size: 9pt;
+    margin-left: 50px;
+    margin-top: 450px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.614);
+   
+}
+
+}
+
+
+
+/* AQUI TERMINA MOBILE E INICIA PC DESKTOP */
+
+
+
+/* ------ <p> / manuais(margin) ------------ MISC DISPLAY NONE ---------- DEDE IMG ------------- */
+
+.link-biblioteca {
+    display: none;
+}
+
+.DEDE {
+    display: none;
+}
+
+.DEDE-desktop {
+    
+    height: 75px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: -7px;
+   
+    
+}
+
+.link-biblioteca-desktop {
+    display: flex;
+    margin-left: 220px;
+    margin-top: -50px;
+  
+}
+
+.boxlistimg, .boxlistbook, .boxlistmanual {
+    display: none;
+}
+
+p { 
+    margin-top: 12px;
+    font: italic 13pt cursive;
+}
+
+.manuais {
+    margin-top: -2px;
+}
+
+/* -------------------------------- BOX IMG DESKTOP ---------------------------- */
+
+.box-imagens {
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(213, 213, 214, 0.799);
+    width: 300px;
+    height: 100px;
+    transition: height 0.2s ease;
+    border-radius: 15px;
+    border: 1.5px solid black;
+    margin-left: -80px;
+    line-height: 15px;
+    
+    
+}
+
+.imgtext {
+    margin-top: 6px;
+    font: italic 15pt cursive;
+}
+
+.linha01 {
+    margin-top: -4mm;
+    border: 1px solid black;
+}
+
+.lista-box01 {
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+    font-size: 13pt;
+    
+    
+    
+}
+
+
+
+/* -------------------------------- BOX LIVROS DESKTOP ---------------------------- */
+
+.box-livros {
+    margin-top: 20px;
+    background: rgba(213, 213, 214, 0.799);
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 40px;
+    transition: height 0.3s ease;
+    border: 1.5px solid black;
+    line-height: 15px;
+    text-align: center;
+}
+
+.livrostext {
+    margin-top: 6px;
+    font: italic 15pt cursive;
+}
+
+.linha02 {
+    margin-top: -4mm;
+    border: 1px solid black;
+}
+
+.lista-box02 {
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+    
+}
+
+
+/* -------------------------------- BOX MANUAIS DESKTOP ---------------------------- */
+
+.box-manuais {
+    margin-top: 20px;
+    background: rgba(213, 213, 214, 0.799);
+    width: 300px;
+    height: 100px;
+    transition: height 0.3s ease;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 1.5px solid black;
+    margin-right: 150px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.manuaistext {
+    margin-top: 3px;
+    font: italic 15pt cursive;
+}
+
+.linha03 {
+    margin-top: -4mm;
+    border: 1px solid black;
+    
+}
+
+.lista-box03 {
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+    
+}
+
+/*----------------------- FOOTER DESKTOP -----------------------*/
+
+
+footer { 
+    
+    font-style: bold;
+    font-size: 12pt;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*-----------------------------config para usar mais tarde-----------------*/
+
+/*
+
+@media (max-width: 768px) {
+    .box {
+        flex: 1 1 calc(50% - 20px); /* Em telas menores, ocupa metade da largura */
+    /*}
+/*}
+
+*/
+
+
+
+
+/*---------------------------------------------------------------------------*/

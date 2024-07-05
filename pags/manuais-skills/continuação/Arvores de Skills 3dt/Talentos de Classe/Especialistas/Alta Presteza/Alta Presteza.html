@@ -34,7 +34,7 @@
         text-indent: 20px;
         background-color: rgb(188, 167, 188);
         width: 1240px;
-        height: 720px;
+        height: 1320px;
         border: 1.5px solid black;
         border-radius: 10px;
         /*Position: fixed */
@@ -84,7 +84,7 @@
         background-color: brown;
     }
 
-    .anteci_Nv1, .anteci_Nv2 {
+    .anteci_Nv1, .anteci_Nv2, .parkou_Nv1, .parkou_Nv2 {
         color: brown;
         text-align: center;
        
@@ -105,11 +105,28 @@
     }
 
     #t02 { /* TABELA 2 - PARKOU DIVINO */
+        width: 400px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 62%;
+        margin-top: -145px;
+        
+
+    }
+
+    #skill03_text {
+        text-indent: 20px;
+        margin-top: -154px;
+    
+        text-align: left;
+    }
+
+    #t03 { /* TABELA 3 - EVASÃO SAGAZ */
         width: 250px;
         border-collapse: collapse;
         font-size: 10pt;
-        margin-left: 65%;
-        margin-top: -145px;
+        margin-left: 5%;
+        margin-top: 20px;
         
 
     }
@@ -118,12 +135,24 @@
         background-color: brown;
     }
 
-    .parkou_Nv1, .parkou_Nv2 {
-        color: brown;
-        text-align: center;
-       
+
+    #skill04_text {
+        text-indent: 20px;
+        margin-top: -254px;
+        margin-left: 48%;
+        text-align: left;
     }
 
+    #t04 { /* TABELA 4 - VISLUMBRE MUSCULAR */
+        width: 550px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 52%;
+        margin-top: 20px;
+        
+        
+
+    }
 
 </style>
 <body>
@@ -201,14 +230,91 @@
                     <td>Testes "difíceis" = <strong>-75%</strong> do redutor; Testes "muito dificeis" = <strong>-50%</strong>.</td>
                     <td>- 1pm</td>
                     <td>INST</td>
-                    <td><strong>+1 Esquiva</strong> ao usar acrobacias</td>
+                    <td><strong>+1 Esquiva</strong> ao usar acrobacias e saltos.</td>
                 </tr>
                 <tr>
                     <td class="parkou_Nv2"><strong>Nv2</strong></td>
                     <td>O Talento irá garantir acerto auto para todos os testes(ver extra).</td>
                     <td>-1 pm</td>
                     <td>INST</td>
-                    <td>Testes "impossiveis" irão exigir alta AGI; <strong>+1 Acer</strong> ao usar acrobacias.</td>
+                    <td>Testes "impossiveis" irão exigir alta AGI; <strong>+1 Acer</strong> ao usar acrobacias e saltos.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="skill03_text">
+            <p style="color: brown;padding-left: 210px;"><strong>•Evasão Sagaz:</strong></p>
+            
+           
+            <p><strong>Descrição</strong>: caso agi seja o dobro da dex de inimigo: abdica de contra atk ou atk oportuno para <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ganhar +1 mov livre com +1 de agi para usar naquele instante.Além disso Permite ignorar <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;habilidades que negam Dex ou Agi em FD.(apenas corpo a corpo)
+
+                </p>
+        </div>
+
+        <table id="t03"> 
+            <thead> <!-- TABELA SKILL 2 = PARKOU DIVINO -->
+                <tr>
+                    <th class="evasao">Evasão Sagaz</th>
+                    <th>Sistema</th>
+                    <th>Custo</th>
+                    <th>Dura./Alcan</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="evasao_Nv1"><strong>Nv1</strong></td>
+                    <td><U>Passiva</U>: Abdica e ganha +1 Mov com +1 de Agi.</td>
+                    <td>-----</td>
+                    <td>INST</td>
+                    <td><strong>+1 Esquiva</strong> enquanto estiver em movimento.</td>
+                </tr>
+                <tr>
+                    <td class="evasao_Nv2"><strong>Nv2</strong></td>
+                    <td><U>Persistência</U>:AGI+1 x Dex-1.Suas esquivas só serão gastas caso o ACER
+                        inimigo faça você rolar uma Esq de 1 á 3.</td>
+                    <td><strong>-1</strong> pm ao usar <U>Persistência</U>.</td>
+                    <td>INST</td>
+                    <td><U>Vigilância Marcial Menor(VMM)</U> : Destreza e Agilidade</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="font-size: 9pt;">*<strong>Persistência</strong>: é um recurso especial presente em vantagens de atk(VA) ou vantagens de defesa(VD). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Esses elementos estão presentes no sistema Thyranius e foram adaptadas para o 3D&T. <strong>Sistema</strong>: o nome <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Persistência nessa Skill significa que a habilidade estará de alguma forma obrigando o atacado a fazer mais <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de 1 teste defensivo(esquiva,resistencia etc) OU obriga atacado a disputar um teste entre atributos. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nessa skill existe uma condição para o especialista ganhar o bônus de +1 Mov, a Persistência irá substituir <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o teste rolado pela condição proposta. </p>
+
+        <div id="skill04_text">
+            <p style="color: brown;padding-left: 210px;"><strong>•Vislumbre Muscular:</strong></p>
+            
+           
+            <p><strong>Descrição</strong>: seu treinamento instenso melhorou significavelmente seus reflexos e domínio do próprio corpo. Você terá mais chances para contra-atacar e esquivar, seja corpo a corpo ou a distância. <U>Requisito</U>: Evasão(Vant.)
+                </p>    
+        </div>
+
+        <table id="t04"> 
+            <thead> <!-- TABELA SKILL 4 = VISLUMBRE MUSCULAR -->
+                <tr>
+                    <th class="vislumbre">Vislumbre Muscular</th>
+                    <th>Sistema</th>
+                    <th>Custo</th>
+                    <th>Dura./Alcan</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="vislumbre_Nv1"><strong>Nv1</strong></td>
+                    <td>Ao usar Evasão: Contra Ataca no resultado "2" caso sua AGI seja o dobro da DEX de atacante.</td>
+                    <td>(Evasão)</td>
+                    <td>INST</td>
+                    <td><U>Evasão Sagaz</U> poderá ser usado tamém a longa distâncias.</td>
+                </tr>
+                <tr>
+                    <td class="vislumbre_Nv2"><strong>Nv2</strong></td>
+                    <td>Ao esquivar-se do 1º ATK Multiplo, irá auto esquivar dos demais ATKs do atacante.(ainda usando Evasão)</td>
+                    <td>-2 pms.</td>
+                    <td>INST</td>
+                    <td><U>Passiva</U>: A cada sucesso em esquiva, ganhe +1 de Esq. Acumule até +3 até o seu turno.(1 turno completo)</td>
                 </tr>
             </tbody>
         </table>

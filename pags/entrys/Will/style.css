@@ -1,0 +1,53 @@
+body {
+    background: rgb(28, 27, 27);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(114, 114, 114);
+    width: 1400px;
+    height: 680px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+#imagem { 
+    height: 550px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;   
+}
+
+#msg {
+    text-align: left;
+    margin-left: 480px;
+    display: flex;
+    font: bold 12pt cursive;
+}
+
+#tabela-will { /* TABELA 1 - WILL DADOS */
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 11pt;
+    margin-left: 36%;
+    margin-top: -530px;
+    
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(66, 21, 108, 0.705);
+}
+

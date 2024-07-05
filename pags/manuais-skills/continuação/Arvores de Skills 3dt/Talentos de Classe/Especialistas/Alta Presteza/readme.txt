@@ -21,7 +21,7 @@ skill foco 1= Parkou Divino: execute manobras arriscadas com facilidade ao usar 
 	      
 skill foco 2= Evasão Sagaz: caso agi seja o dobro da dex de inimigo: abdica de contra atk ou atk oportuno para ganhar +1 mov livre com +1 de agi para usar naquela hora.
 
-	      Nv2: caso sua agi nao seja o dobro da dex inimiga, tente um AGI+1 x Dex-1 de inimigo. Além disso, suas esquivas só serão consideradas "gastas" caso o ACER
+	      Nv2: se sua agi não superar, tente um AGI+1 x Dex-1 de inimigo. Além disso, suas esquivas só serão consideradas "gastas" caso o ACER
                    de inimigo lhe obrigue a voce rolar no mínimo um teste de 1 á 3.
 
 vislumbre muscular: caso agi seja o triplo: contra ataca no 2
