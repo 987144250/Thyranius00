@@ -1,0 +1,54 @@
+body {
+    background: rgb(28, 27, 27);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(114, 114, 114);
+    width: 1000px;
+    height: 480px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+#imagem { 
+    height: 410px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: -40px;
+       
+}
+
+#msg {
+    text-align: left;
+    margin-left: 350px;
+    display: flex;
+    font: bold 8pt cursive;
+}
+
+#tabela-will { /* TABELA 1 -YOMI DADOS */
+    width: 200px;
+    border-collapse: collapse;
+    font-size: 8pt;
+    margin-left: 38%;
+    margin-top: -370px;
+    
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color:   rgba(211, 101, 5, 0.779);
+}
+
