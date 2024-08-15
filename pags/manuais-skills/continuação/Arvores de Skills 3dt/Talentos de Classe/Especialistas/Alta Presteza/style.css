@@ -1,0 +1,171 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    display: block;
+    width: 1240px;
+    height: 70px;
+    background-color: aliceblue;
+    /*Position: fixed */
+}
+
+#Passiva {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img {
+    margin-top: -100px;
+    margin-left: 500px;
+    height: 400px;
+    display: flex;
+}
+
+section {
+    text-indent: 20px;
+    background-color: rgb(188, 167, 188);
+    width: 1240px;
+    height: 1320px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    /*Position: fixed */
+    
+}
+
+#img02 {
+    margin-top: -210px;
+    margin-left: 595px;
+    height: 60px;
+    display: flex;
+}
+
+#titulo {
+    text-align: center; 
+    font:bold 15pt cursive
+}
+
+#div {
+    display: flex;
+    
+}
+
+p {
+    font-size: 10pt;
+}
+
+/* -------------------------------------------------------------------------------------------------*/
+
+.Antecipar, .Parkou, .evasao, .vislumbre, .tempus{
+    background-color: brown;
+}
+
+.anteci_Nv1, .anteci_Nv2, .parkou_Nv1, .parkou_Nv2 , .evasao_Nv1, .evasao_Nv2, .vislumbre_Nv1, .vislumbre_Nv2, .tempus_Nv1, .tempus_Nv2{
+    color: brown;
+    text-align: center;
+   
+}
+
+#skill01_text { /* Skill name 1 = ANTECIPAR */
+    margin-top: 40px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+#t01 { /* TABELA 1 - ALTA PRESTEZA */
+        width: 250px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 80px;
+    }
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+th {
+    background-color: #f2f2f2;
+    
+    }
+
+
+
+#skill02_text { /* Skill name 2 = PARKOU DIVINO */
+    text-indent: 20px;
+    margin-top: -284px;
+    margin-left: 58%;
+    text-align: left;
+}
+
+#t02 { /* TABELA 2 - PARKOU DIVINO */
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 62%;
+    margin-top: -145px;
+    
+
+}
+
+#skill03_text { /* Skill name 3 = EVASÃO SAGAZ */
+    text-indent: 20px;
+    margin-top: -124px;
+
+    text-align: left;
+}
+
+#t03 { /* TABELA 3 - EVASÃO SAGAZ */
+    width: 250px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 5%;
+    margin-top: 20px;
+    
+
+}
+
+
+#skill04_text { /* Skill name 4 = VISLUMBRE MUSCULAR */
+    text-indent: 20px;
+    margin-top: -380px;
+    margin-left: 48%;
+    text-align: left;
+}
+
+#t04 { /* TABELA 4 - VISLUMBRE MUSCULAR */
+    width: 550px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 52%;
+    margin-top: 20px;    
+
+}
+
+.ultimate_text { /* Skill name 5 = TEMPUS */
+    color: crimson;
+    margin-top: 75px;
+    margin-left: 270px;
+}
+
+#skill05_text { /*Descrição  = TEMPUS */
+    text-indent: 230px;
+    margin-top: 20px;
+    margin-left: 170px;
+    text-align: left;
+}
+
+#t05 { /* TABELA - TEMPUS */
+    width: 550px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 365px;
+    margin-top: 20px;
+}    
+
+#obs_tempus{
+    font-size: 9pt;
+    margin-left: 920px;
+    margin-top: -110px;
+}

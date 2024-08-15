@@ -4,157 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alta Presteza</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-color: aliceblue;
-    }
-
-    header {
-        display: block;
-        width: 1240px;
-        height: 70px;
-        background-color: aliceblue;
-        /*Position: fixed */
-    }
-
-    #Passiva {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    #img {
-        margin-top: -100px;
-        margin-left: 500px;
-        height: 400px;
-        display: flex;
-    }
-
-    section {
-        text-indent: 20px;
-        background-color: rgb(188, 167, 188);
-        width: 1240px;
-        height: 1320px;
-        border: 1.5px solid black;
-        border-radius: 10px;
-        /*Position: fixed */
-        
-    }
-    
-    #img02 {
-        margin-top: -210px;
-        margin-left: 595px;
-        height: 60px;
-        display: flex;
-    }
-
-    #titulo {
-        text-align: center; 
-        font:bold 15pt cursive
-    }
-
-    #div {
-        display: flex;
-        
-    }
-
-    p {
-        font-size: 10pt;
-    }
-
-    #t01 { /* TABELA 1 - ALTA PRESTEZA */
-            width: 250px;
-            border-collapse: collapse;
-            font-size: 10pt;
-            margin-left: 80px;
-        }
-    
-    th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-
-    th {
-        background-color: #f2f2f2;
-        
-        }
-    
-    .Antecipar {
-        background-color: brown;
-    }
-
-    .anteci_Nv1, .anteci_Nv2, .parkou_Nv1, .parkou_Nv2 {
-        color: brown;
-        text-align: center;
-       
-    }
-
-    #skill01_text {
-        margin-top: -240px;
-        margin-left: 55%;
-        text-align: left;
-    }
-
-
-    #skill02_text {
-        text-indent: 20px;
-        margin-top: -284px;
-        margin-left: 58%;
-        text-align: left;
-    }
-
-    #t02 { /* TABELA 2 - PARKOU DIVINO */
-        width: 400px;
-        border-collapse: collapse;
-        font-size: 10pt;
-        margin-left: 62%;
-        margin-top: -145px;
-        
-
-    }
-
-    #skill03_text {
-        text-indent: 20px;
-        margin-top: -154px;
-    
-        text-align: left;
-    }
-
-    #t03 { /* TABELA 3 - EVASÃO SAGAZ */
-        width: 250px;
-        border-collapse: collapse;
-        font-size: 10pt;
-        margin-left: 5%;
-        margin-top: 20px;
-        
-
-    }
-
-    .Parkou {
-        background-color: brown;
-    }
-
-
-    #skill04_text {
-        text-indent: 20px;
-        margin-top: -254px;
-        margin-left: 48%;
-        text-align: left;
-    }
-
-    #t04 { /* TABELA 4 - VISLUMBRE MUSCULAR */
-        width: 550px;
-        border-collapse: collapse;
-        font-size: 10pt;
-        margin-left: 52%;
-        margin-top: 20px;
-        
-        
-
-    }
-
-</style>
 <body>
     <header>
         <h2 id="titulo">👁 Alta Presteza</h2>
@@ -166,10 +17,9 @@
         
         <p id="Passiva"><strong>Passiva,<color style="color: blueviolet;">"Safo"</color>:</strong> +1 INI,+1 percep,+1 para testes de esquiva e desvio,aumenta em 50% a quantia de esquivas totais e +1 desvio total </p> <br>
 
-        <p style="color: brown;padding-left: 210px;"><strong>•Antecipar:</strong></p>
+        <p id="skill01_text" style="color: brown;"><strong>•Antecipar:</strong></p>
         <p><strong>Descrição</strong>: ao ser alvejado por 1º ATK de inimigo naquele turno, considere que você <br> 
-            </p><p style="padding-left: 62px; margin-top: -13px;">tenha uma ação guardada, podendo usa-la como movimento se preferir. <br>&nbsp; 
-            &nbsp; &nbsp;&nbsp;Só não é permitido usa-la para atacar. Não irá funcionar se Dex de inimigo superar sua Perc.</p>
+        </p><p style="padding-left: 62px; margin-top: -13px;">tenha uma ação guardada, podendo usa-la como movimento se preferir. <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Só não é permitido usa-la para atacar. Não irá funcionar se Dex de inimigo superar <br> &nbsp; &nbsp; &nbsp; sua Perc;<u>Skill Inicial</u> : sem custo.</p>
 
         <table id="t01"> 
             <thead> <!-- TABELA SKILL 1 = ALTA PRESTEZA -->
@@ -192,7 +42,7 @@
                 <tr>
                     <td class="anteci_Nv2"><strong>Nv2</strong></td>
                     <td>Percep +1 x Agi</td>
-                    <td>-1 pm caso não use mov.</td>
+                    <td>-1 pe caso não use mov.</td>
                     <td>INST</td>
                     <td>Permite uso de Perícia e Vant.</td>
                 </tr>
@@ -203,7 +53,7 @@
             <p style="color: brown;padding-left: 210px;"><strong>•Parkou Divino:</strong></p>
             
            
-            <p><strong>Descrição</strong>: execute manobras arriscadas com facilidade ao usar movimento, como: andar nas paredes,passar por locais apertados em alta velocidade, misturar acrobacias com escalada e corrida ao mesmo tempo apenas com 1 mov; Gastando -1pm Irá ignorá lhe garantir um sucesso automático em testes simples e moderados,veja a tabela abaixo:
+            <p><strong>Descrição</strong>: execute manobras arriscadas com facilidade ao usar movimento, como: andar nas paredes,passar por locais apertados em alta velocidade, misturar acrobacias com escalada e corrida ao mesmo tempo apenas com 1 mov; Gastando -1pe Irá ignorá lhe garantir um sucesso automático em testes simples e moderados;Requisito: <u>Antecipar</u> Nv2 + 1 ponto + treinamento. 
                 </p>
         </div>
 
@@ -228,16 +78,16 @@
                 <tr>
                     <td class="parkou_Nv1"><strong>Nv1</strong></td>
                     <td>Testes "difíceis" = <strong>-75%</strong> do redutor; Testes "muito dificeis" = <strong>-50%</strong>.</td>
-                    <td>- 1pm</td>
+                    <td>- 1pe</td>
                     <td>INST</td>
-                    <td><strong>+1 Esquiva</strong> ao usar acrobacias e saltos.</td>
+                    <td><strong>+2 Esquiva</strong> ao usar acrobacias e saltos.</td>
                 </tr>
                 <tr>
                     <td class="parkou_Nv2"><strong>Nv2</strong></td>
                     <td>O Talento irá garantir acerto auto para todos os testes(ver extra).</td>
-                    <td>-1 pm</td>
+                    <td>-1 pe</td>
                     <td>INST</td>
-                    <td>Testes "impossiveis" irão exigir alta AGI; <strong>+1 Acer</strong> ao usar acrobacias e saltos.</td>
+                    <td>Testes "impossiveis" irão exigir alta AGI; <strong>+2 Acer</strong> ao usar acrobacias e saltos.</td>
                 </tr>
             </tbody>
         </table>
@@ -247,13 +97,13 @@
             
            
             <p><strong>Descrição</strong>: caso agi seja o dobro da dex de inimigo: abdica de contra atk ou atk oportuno para <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ganhar +1 mov livre com +1 de agi para usar naquele instante.Além disso Permite ignorar <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;habilidades que negam Dex ou Agi em FD.(apenas corpo a corpo)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ganhar +1 mov livre com +1 de agi para usar naquele instante.Além disso Permite ignorar <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;habilidades que negam Dex ou Agi em FD;<u>Requisito</u>: Antecipar Nv2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐ 
 
                 </p>
         </div>
 
         <table id="t03"> 
-            <thead> <!-- TABELA SKILL 2 = PARKOU DIVINO -->
+            <thead> <!-- TABELA SKILL 3 =  EVASÃO SAGAZ -->
                 <tr>
                     <th class="evasao">Evasão Sagaz</th>
                     <th>Sistema</th>
@@ -272,22 +122,24 @@
                 </tr>
                 <tr>
                     <td class="evasao_Nv2"><strong>Nv2</strong></td>
-                    <td><U>Persistência</U>:AGI+1 x Dex-1.Suas esquivas só serão gastas caso o ACER
+                    <td><U>Ímpeto Avançado</U>:AGI+1 x Dex-1.Suas esquivas só serão gastas caso o ACER
                         inimigo faça você rolar uma Esq de 1 á 3.</td>
-                    <td><strong>-1</strong> pm ao usar <U>Persistência</U>.</td>
+                    <td><strong>-1</strong> pe ao usar <U>Ímpeto Avançado</U>.</td>
                     <td>INST</td>
                     <td><U>Vigilância Marcial Menor(VMM)</U> : Destreza e Agilidade</td>
                 </tr>
             </tbody>
         </table>
 
-        <p style="font-size: 9pt;">*<strong>Persistência</strong>: é um recurso especial presente em vantagens de atk(VA) ou vantagens de defesa(VD). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Esses elementos estão presentes no sistema Thyranius e foram adaptadas para o 3D&T. <strong>Sistema</strong>: o nome <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Persistência nessa Skill significa que a habilidade estará de alguma forma obrigando o atacado a fazer mais <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de 1 teste defensivo(esquiva,resistencia etc) OU obriga atacado a disputar um teste entre atributos. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nessa skill existe uma condição para o especialista ganhar o bônus de +1 Mov, a Persistência irá substituir <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o teste rolado pela condição proposta. </p>
+        <p style="font-size: 9pt;">*<strong>Ímpeto Avançado</strong>: é um recurso especial presente em vantagens de defesa(VD).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa VD está presente no sistema Thyranius e foi adaptada para o 3D&T. <strong>Sistema</strong>: Irá rolar um teste,sua <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AGI+1 x Dex-1 de atacante,caso ganhe você irá ignorar qualquer habilidade ou vantagem de atk(VA) que <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ao atacar,ignore DEX ou AGI.Também funciona em momentos de atk furtivo,caso voce passe no teste de percepção;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Requisito de uso: AGI = 4 ou maior.(evite sofrer redutores em sua mobilidade.)   </p>
+
+        <p style="font-size: 9pt;"><strong>*VMM</strong>: a Vigilância Marcial Menor é um recurso marcial,uma vantagem de defesa(VD) bastante comum <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; em combatentes e especialista.<strong>Durante esquiva ou desvio,reduza -1</strong> na dificuldade base para cada 50%<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de AGI a mais em relação a Dex de atacante. </p>
 
         <div id="skill04_text">
             <p style="color: brown;padding-left: 210px;"><strong>•Vislumbre Muscular:</strong></p>
             
            
-            <p><strong>Descrição</strong>: seu treinamento instenso melhorou significavelmente seus reflexos e domínio do próprio corpo. Você terá mais chances para contra-atacar e esquivar, seja corpo a corpo ou a distância. <U>Requisito</U>: Evasão(Vant.)
+            <p><strong>Descrição</strong>: seu treinamento instenso melhorou significavelmente seus reflexos e domínio do próprio corpo. Você terá mais chances para contra-atacar e esquivar, seja corpo a corpo ou a distância. <U>Requisito</U>: Evasão Sagaz Nv2
                 </p>    
         </div>
 
@@ -307,18 +159,56 @@
                     <td>Ao usar Evasão: Contra Ataca no resultado "2" caso sua AGI seja o dobro da DEX de atacante.</td>
                     <td>(Evasão)</td>
                     <td>INST</td>
-                    <td><U>Evasão Sagaz</U> poderá ser usado tamém a longa distâncias.</td>
+                    <td><U>Evasão Sagaz</U> poderá ser usado também a longa distâncias.</td>
                 </tr>
                 <tr>
                     <td class="vislumbre_Nv2"><strong>Nv2</strong></td>
                     <td>Ao esquivar-se do 1º ATK Multiplo, irá auto esquivar dos demais ATKs do atacante.(ainda usando Evasão)</td>
-                    <td>-2 pms.</td>
+                    <td>-2 pes.</td>
                     <td>INST</td>
                     <td><U>Passiva</U>: A cada sucesso em esquiva, ganhe +1 de Esq. Acumule até +3 até o seu turno.(1 turno completo)</td>
                 </tr>
             </tbody>
         </table>
 
+
+        <div>
+            <p class="ultimate_text" style="color: brown;padding-left: 310px;"><strong>•Tempus:</strong></p>
+            
+           
+            <p id="skill05_text"><strong>Descrição</strong>: Você chegou ao ápice, aprendeu uma técnica psíquica após muito treino em focar sua <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mente enquanto usa seus reflexos em movimento, o próprio criador da Técnica lhe ensinou,por algum motivo.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <U>Requisito</U>: Foco em Evasão(Vant.) + 
+            Parkou Divino Nv2 + 3 pontos + Treino com o criador da técnica.</p>    
+        </div>
+
+        <table id="t05"> 
+            <thead> <!-- TABELA SKILL 5  = TEMPUS -->
+                <tr>
+                    <th class="tempus">Tempus</th>
+                    <th>Sistema</th>
+                    <th>Custo</th>
+                    <th>Dura./Alcan</th>
+                    <th>Extra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tempus_Nv1"><strong>Nv1</strong></td>
+                    <td>Ao alterar a respiração e liberar a adrenalina contida em seu interior.Você ganhará PERCEP e INI + 4 e + 1 ação até o fim da cena ou até entrar em fadiga.</td>
+                    <td>-2 mov,-2PE ativação,-1 por T</td>
+                    <td>SUST</td>
+                    <td><U>Evasão Sagaz</U> poderá ser usado tamém a longa distâncias.</td>
+                </tr>
+                <tr>
+                    <td class="tempus_Nv2"><strong>Nv2</strong></td>
+                    <td>Em momentos críticos, consiga rolar 3 testes ao mesmo tempo e escolha o melhor resultado.</td>
+                    <td>-2 pes por T.</td>
+                    <td>INST</td>
+                    <td>Ganhe os mesmos efeitos da "Magia Traiçoeira" <u>Movimentos Impossíveis</u> sempre que realizar uma acrobacia com Parkou Divino.(-1 pe por uso) </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p id="obs_tempus"><strong>*Movimentos Impossíveis</strong>: é uma Magia Traiçoeira Caótica, um caminho raro de se aprender entre conjuradores.Essa magia permite movimentar-se e usar acrobacias de forma totalmente imprecisa e desajeitada,como se fosse cair a qualquer momento,suas pernas ficarão turvas em alguns momentos e não será possível um inimigo evitar algum ATK não-múltiplo seu usando esquivas,bloqueios,desvios,auto desv/bloc/esq e Previsão Marcial;Obs: não é possível usar essa Magia com Invisibilidade.</p>
     </section>
 
     
