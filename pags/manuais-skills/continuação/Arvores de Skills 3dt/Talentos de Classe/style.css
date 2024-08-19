@@ -193,6 +193,10 @@ margin-top: 10%;
     display: none;
 }
 
+a{
+    text-decoration: none; 
+}
+
 .DEDE {
     display: none;
 }
