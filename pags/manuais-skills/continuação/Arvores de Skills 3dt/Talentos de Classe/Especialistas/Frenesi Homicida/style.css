@@ -1,0 +1,192 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    display: block;
+    width: 1240px;
+    height: 70px;
+    background-color: aliceblue;
+   
+}
+
+#Passiva {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img {
+    margin-top: -20px;
+    margin-left: 485px;
+    height: 450px;
+    display: flex;
+    
+}
+
+section {
+    text-indent: 20px;
+    background-color: rgb(188, 167, 188);
+    width: 1240px;
+    height: 1520px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+                                         /*Position: fixed NAO USAR POIS O ZOOM BUGA */
+    
+}
+
+#img02 {
+    margin-top: -600px;
+    margin-left: 595px;
+    height: 70px;
+    display: flex;
+   
+}
+
+#titulo {
+    text-align: center; 
+    font:bold 15pt cursive
+}
+
+#div {
+    display: flex;
+    
+}
+
+p {
+    font-size: 10pt;
+}
+
+/* -------------------------------------------------------------------------------------------------*/
+
+.Marca, .Colheita, .Vortex, .Serpente, .Sede, .Imparavel{
+    background-color: brown;
+}
+
+.frene_Nv1, .frene_Nv2, .colheita_Nv1, .colheita_Nv2 , .vortex_Nv1, .vortex_Nv2, .serpente_Nv1, .serpente_Nv2, .sede_Nv1, .sede_Nv2, .impa_Nv1, .impa_Nv2{
+    color: brown;
+    text-align: center;
+   
+}
+
+#skill01_text { /* Skill name 1 = MARCA DO ASSASSINO */
+    margin-top: 40px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+#t01 { /* TABELA 1 - MARCA ASSA */
+        width: 250px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 80px;
+    }
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+th {
+    background-color: #f2f2f2;
+    
+    }
+
+
+
+#skill02_text { /* Skill name 2 = COLHEITA SANGRENTA */
+    text-indent: 20px;
+    margin-top: -433px;
+    margin-left: 55%;
+    text-align: left;
+    
+}
+
+#t02 { /* TABELA 2 - COLHEITA S. */
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 62%;
+    margin-top: 5px;
+    
+    
+
+}
+
+#skill03_text { /* Skill name 3 = COLHEITA DO VORTEX */
+    text-indent: 20px;
+    margin-top: 54px;
+    text-align: left;
+    
+}
+
+#t03 { /* TABELA 3 - COLHEITA VORTEX */
+    width: 250px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 5%;
+    margin-top: 10px;
+    
+    
+
+}
+
+
+#skill04_text { /* Skill name 4 = COLHEITA DA SERPENTE */
+    text-indent: 90px;
+    margin-top: -390px;
+    margin-left: 48%;
+    text-align: left;
+    
+}
+
+#t04 { /* TABELA 4 - COLHEITA SERPENTE */
+    width: 550px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 52%;
+    margin-top: 10px; 
+     
+
+}
+
+.sede_text { /* Skill name 5 = SEDE DE SANGUE */
+    
+    margin-top: 130px;
+    margin-left: -6%;
+    
+}
+
+#skill05_text { /*Descrição  = SEDE */
+    text-indent: 230px;
+    margin-top: 15px;
+    margin-left: -210px;
+    text-align: left;
+    
+}
+
+#t05 { /* TABELA - SEDE */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+
+#skill06_text { /*Skill name = IMPARÁVEL */
+    text-indent: 260px;
+    margin-top: -420px;
+    margin-left: 470px;
+    text-align: left;
+}
+
+#t06 { /* TABELA - IMPARÁVEL */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 700px;
+    margin-top: 10px;
+    
+}
+

@@ -194,7 +194,7 @@ margin-top: 10%;
 }
 
 a{
-    text-decoration: none; 
+    text-decoration: none; /* retira sublinhado de links */
 }
 
 .DEDE {

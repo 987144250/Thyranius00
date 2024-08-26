@@ -28,6 +28,7 @@ section {
 #msg {
     text-align: left;
     margin-left: 365px;
+    margin-top: -5px;
     display: flex;
     font: bold 8pt cursive;
 }
@@ -37,7 +38,7 @@ section {
     border-collapse: collapse;
     font-size: 8pt;
     margin-left: 43%;
-    margin-top: -360px;
+    margin-top: -370px;
     
 }
 
