@@ -1,5 +1,5 @@
 body {
-    background: rgba(79, 103, 154, 0.826)
+    background: rgba(0, 0, 0, 0.826)
 }
 
 header {
@@ -8,14 +8,52 @@ header {
     text-align: center;
 }
 
-#lista-M {
-    width: 170px;
-    height: 400px;
-    margin: auto;
-    background-color: aliceblue;
-    border: 1.5px solid black;
-    border-radius: 10px;
-    text-align: center;
-    font: normal 11pt cursive; 
+#space{
+    opacity: 0; /* serve apenas para gerar espaço mínimo entre section(box grande) e topo da tela */
 }
+
+section{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    padding-top: 10px;
+    border: 1.5px solid rgb(7, 2, 2);
+    background-color: rgba(102, 65, 137, 0.866);
+}
+
+#regras{
+    
+    width: 150px;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 12px;
+}
+
+#skills{
+    display: flex;
+    width: 120px;
+    margin-top: -158px;
+    height: auto;
+    margin-left: 255px;
+}
+
+#monstros{
+    display: flex;
+    width: 130px;
+    margin-top: -128px;
+    height: auto;
+    margin-left: 425px;
+}
+
+#mundos{
+    display: flex;
+    width: 130px;
+    margin-top: -108px;
+    height: auto;
+    margin-left: 325px;
+}
+
+
 

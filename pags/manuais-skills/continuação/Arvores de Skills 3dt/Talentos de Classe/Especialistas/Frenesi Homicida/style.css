@@ -10,6 +10,26 @@ header {
    
 }
 
+header h2 { /* título da skill "Frenesi Homicida" */
+    text-align: center; 
+    font:bold 15pt cursive;
+    text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.5);
+    
+      
+   
+}   
+
+header span{
+    background-image: linear-gradient(to right, #940f0ff5, transparent);
+
+}
+
+header p{ /* REQUISITOS */
+    text-align: center;
+   
+
+}
+
 #Passiva {
     text-align: center;
     margin-top: 10px;
@@ -42,10 +62,7 @@ section {
    
 }
 
-#titulo {
-    text-align: center; 
-    font:bold 15pt cursive
-}
+
 
 #div {
     display: flex;
