@@ -1,0 +1,283 @@
+body{
+    background-color: aliceblue;
+}
+
+header {
+    display: block;
+    width: 1240px;
+    height: 70px;
+    background-color: aliceblue;
+   
+}
+
+header h2 { /* título da skill "Ímpeto Acelerado" */
+    text-align: center; 
+    font:bold 15pt cursive;
+    text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.5);
+}   
+
+p > span{
+    color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header span{
+    background-image: linear-gradient(to right, #940f0ff5, transparent);
+
+}
+
+header p{ /* REQUISITOS */
+    text-align: center;
+   
+
+}
+
+#descricao{
+    
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+#passiva{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#img {
+    margin-top: -20px;
+    margin-left: 30px;
+    height: 420px;
+    display: flex;
+    padding-bottom: 120px;
+    
+}
+
+#img02 {
+    margin-top: -350px;
+    margin-left: 197px;
+    height: 70px;
+    display: flex;
+}
+
+
+#main{
+    display: flex;
+    
+}
+
+#lenda_monge{
+    width: 300px;
+    height: auto;    
+}
+
+.vertical-line {
+    width: 2px;               /* Define a largura da linha */
+    height: 420px;            /* Define a altura da linha */
+    background-color: #000000;   /* Cor da linha */
+    margin: 0 20px;           /* Espaçamento horizontal */
+    margin-left: 150px;
+}
+  
+
+#lenda_monge_text{ /* Limitando espaço do texto para caber em bloco invisivel ou incolor */
+    width: 720px;
+    height: auto;
+    padding-left: 20px;
+    margin-top: -40px;
+}
+
+section {
+    text-indent: 20px;
+    background-color: rgb(188, 167, 188);
+    width: 1240px;
+    height: 2520px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+                                         /*Position: fixed NAO USAR POIS O ZOOM BUGA */
+    
+}
+
+#div {
+    display: flex;
+    
+}
+
+p {
+    font-size: 10pt;
+}
+
+/* ------------------------------------------ */
+
+.shidou, .coruja, .nanhou, .olho_fant, .chi_negro, .maha, .frene_acel, .nuhu{
+    background-color: rgba(87, 15, 91, 0.788);
+}
+
+.shidou_Nv1, .shidou_Nv2, .coruja_Nv1, .coruja_Nv2 , .nanhou_Nv1, .nanhou_Nv2, .olho_fant_Nv1, .olho_fant_Nv2, .chi_negro_Nv1, .chi_negro_Nv2, .maha_Nv1, .maha_Nv2, .frene_acel_Nv1, .frene_acel_Nv2, .nuhu_Nv1, .nuhu_Nv2{
+    color: rgb(78, 18, 83);
+    text-align: center;
+   
+}
+
+#skill01_text { /* Skill name 1 = Shidou */
+    text-indent: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#t01 { /* TABELA 1 - Shidou */
+        width: 400px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 60px;
+        
+    }
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+th {
+    background-color: #f2f2f2;
+    
+    }
+
+
+
+#skill02_text { /* Skill name 2 = CORUJA */
+    text-indent: 20px;
+    margin-top: -333px;
+    margin-left: 55%;
+    text-align: left;
+    
+}
+
+#t02 { /* TABELA 2 - CORUJA */
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 62%;
+    margin-top: 5px;
+    
+    
+
+}
+
+#skill03_text { /* Skill name 3 = NAN'HOU */
+    text-indent: 20px;
+    margin-top: 54px;
+    text-align: left;
+    
+}
+
+#t03 { /* TABELA 3 - NAN'HOU */
+    width: 250px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 5%;
+    margin-top: 10px;
+    
+    
+
+}
+
+
+#skill04_text { /* Skill name 4 = OLHO FANTASMA */
+    text-indent: 90px;
+    margin-top: -390px;
+    margin-left: 48%;
+    text-align: left;
+    
+}
+
+#t04 { /* TABELA 4 - OLHO FANTASMA */
+    width: 550px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 52%;
+    margin-top: 10px; 
+     
+
+}
+
+.chi_text { /* Skill name 5 = CHI NEGRO */
+    
+    margin-top: 130px;
+    margin-left: -6%;
+    
+}
+
+#skill05_text { /*Descrição  = CHI NEGRO */
+    text-indent: 230px;
+    margin-top: 15px;
+    margin-left: -210px;
+    text-align: left;
+    
+}
+
+#t05 { /* TABELA - CHI NEGRO */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+
+#skill06_text { /*Skill name = MAHA'GENPO*/
+    text-indent: 260px;
+    margin-top: -420px;
+    margin-left: 470px;
+    text-align: left;
+}
+
+#t06 { /* TABELA - MAHA'GENPO */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 700px;
+    margin-top: 10px;
+    
+}
+
+#skill07_text { /*Skill name = FRENESI ACELERADO*/
+    text-indent: 10px;
+    margin-top: 90px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#t07 { /* TABELA - FRENESI ACELERADO */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+
+#skill08_text { /*Skill name = NUHURAGI*/
+    text-indent: 260px;
+    margin-top: -400px;
+    margin-left: 470px;
+    text-align: left;
+}
+
+#t08 { /* TABELA - NUHURAGI */
+    width: 450px;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin-left: 700px;
+    margin-top: 10px;
+    
+}
+
+

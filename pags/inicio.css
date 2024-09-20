@@ -215,6 +215,10 @@ margin-top: 10%;
   
 }
 
+div > ul > p > a{ /* retirando sublinhado de links */
+    text-decoration: none;
+}
+
 .boxlistimg, .boxlistbook, .boxlistmanual {
     display: none;
 }
@@ -331,6 +335,7 @@ p {
     margin-left: -40px;
     margin-top: 10px;
     opacity: 0;
+    
     
 }
 
