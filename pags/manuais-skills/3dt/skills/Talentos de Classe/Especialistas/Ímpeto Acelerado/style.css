@@ -131,6 +131,8 @@ p {
     text-align: left;
 }
 
+/* Obs: para aumentar o tamanho da tabela: aumente os espaços dos nomes de descrição acima. */
+
 #t01 { /* TABELA 1 - Shidou */
         width: 400px;
         border-collapse: collapse;
@@ -164,7 +166,7 @@ th {
     width: 400px;
     border-collapse: collapse;
     font-size: 10pt;
-    margin-left: 62%;
+    margin-left: 59%;
     margin-top: 5px;
     
     
@@ -175,6 +177,7 @@ th {
     text-indent: 20px;
     margin-top: 54px;
     text-align: left;
+    
     
 }
 
@@ -191,8 +194,8 @@ th {
 
 
 #skill04_text { /* Skill name 4 = OLHO FANTASMA */
-    text-indent: 90px;
-    margin-top: -390px;
+    text-indent: 60px;
+    margin-top: -365px;
     margin-left: 48%;
     text-align: left;
     
@@ -208,14 +211,14 @@ th {
 
 }
 
-.chi_text { /* Skill name 5 = CHI NEGRO */
+.chi_text { /* Skill name 5 = CHI Profano */
     
-    margin-top: 130px;
-    margin-left: -6%;
+    margin-top: 100px;
+    margin-left: -120px;
     
 }
 
-#skill05_text { /*Descrição  = CHI NEGRO */
+#skill05_text { /*Descrição  = CHI PROFANO */
     text-indent: 230px;
     margin-top: 15px;
     margin-left: -210px;
@@ -223,7 +226,7 @@ th {
     
 }
 
-#t05 { /* TABELA - CHI NEGRO */
+#t05 { /* TABELA - CHI PROFANO */
     width: 450px;
     border-collapse: collapse;
     font-size: 9pt;
@@ -233,8 +236,8 @@ th {
 }
 
 #skill06_text { /*Skill name = MAHA'GENPO*/
-    text-indent: 260px;
-    margin-top: -420px;
+    text-indent: 220px;
+    margin-top: -380px;
     margin-left: 470px;
     text-align: left;
 }
@@ -250,7 +253,7 @@ th {
 
 #skill07_text { /*Skill name = FRENESI ACELERADO*/
     text-indent: 10px;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-left: 10px;
     text-align: left;
 }
@@ -265,9 +268,9 @@ th {
 }
 
 #skill08_text { /*Skill name = NUHURAGI*/
-    text-indent: 260px;
-    margin-top: -400px;
-    margin-left: 470px;
+    text-indent: 320px;
+    margin-top: -380px;
+    margin-left: 370px;
     text-align: left;
 }
 
