@@ -4,6 +4,7 @@ body{
 
 header {
     display: block;
+    margin: auto;
     width: 1240px;
     height: 70px;
     background-color: aliceblue;
@@ -93,10 +94,11 @@ header p{ /* REQUISITOS */
 }
 
 section {
+    margin: auto;
     text-indent: 20px;
     background-color: rgb(188, 167, 188);
     width: 1240px;
-    height: 2520px;
+    height: 2320px;
     border: 1.5px solid black;
     border-radius: 10px;
                                          /*Position: fixed NAO USAR POIS O ZOOM BUGA */
