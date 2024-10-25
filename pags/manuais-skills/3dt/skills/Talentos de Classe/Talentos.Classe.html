@@ -14,164 +14,81 @@
 
     <section>
 
-        <div class="background" >
+        <div id="fundo_img">
 
-            <!-- Aqui começa propriedades MOBILE -->
+            <ul class="list_box" id="box_1">
 
-            <section>  
+                <p style="line-height: 2px; font-weight: bold">COMBATENTES</p> <!-- Titulo -->
 
-                <div class="boximg">
+                <hr class="vertical-line"> <!-- LINHA VERTICAL -->
 
-                    <ul class="boxlistimg">
+                <p style="line-height: 25px;">Empunhadura de Ergros</p>
 
-                        <p>Combatentes</p>
+                <p>Equilibrio de Samir</p>
 
-                        <hr class="linha-img">
+                <p>Mão de Arás</p>
 
-                        <p class="mundo-img-mobile"><a href="pags/img-mundo/mundo.html" target="_blank" rel="self" >Mundo</a></p>
-                        
-                        <p class="personagens-img-mobile">Personagens</p>
-                        
-                        <p class="skills-img-mobile">Skills</p>
-                        
-                        <p class="diversos-img-mobile">Diversos</p>
-                    </ul>
+                <p>Rigidez de Marfim</p>
 
-                </div>
+                <p>Vórtice Crescente</p>
 
-                <div class="boxbook">
+                <p>Slasher</p>
 
-                    <ul class="boxlistbook">
+            </ul>
 
-                        <p>Conjuradores</p>
-
-                        <hr class="linha-livros">
-
-                        <p class="historia-livros-mobile"><a href="pags/img-mundo/mundo.html" target="_blank" rel="self" >História</a></p>
-                        
-                        <p class="personagens-livros-mobile">Personagens</p>
-                        
-                        <p class="skills-livros-mobile">Skills</p>
-                        
-                        <p class="diversos-livros-mobile">Diversos</p>
-
-                    </ul>
-
-                </div>
-                    
-                <div class="boxmanual">
-
-                    <ul class="boxlistmanual">
-
-                        <p>Especialistas</p>
-
-                        <hr class="linha-manuais">
-
-                        <p class="regras-manuais-mobile"><a href="pags/img-mundo/mundo.html" target="_blank" rel="self" >Manuais de Regras</a></p>
-                        
-                        <p class="skills-manuais-mobile"><a href="pags/manuais-skills/index.html" target="_blank" rel="self">Manuais de Skills</a></p>
-                        
-                        <p class="criaturas-manuais-mobile">Manuais das Criaturas</p>
-                        
-                        <p class="mundos-manuais-mobile">Manuais dos Mundos</p>
-
-                    </ul>
-                    
-                    <div class="DEDE">
-                        <img src="img/DEDE.png" alt="iconededelson">
-                    </div>
-
-                    <p class="link-biblioteca"><a href="https://bibliotecaelfica.org/category/3dt-alpha/" target="_blank" ><code>Clique aqui para baixar manuais e conteúdos do sistema que inicialmente inspirou o projeto Thyranius!</code></a></p>
-
-                </div>
-
-               
-
-            </section>
-
-            <!-- Aqui termina propriedades MOBILE -->
-            
-
-            <!-- Mouse entrando e saindo das box(usa o this para ativar o gatilho individualmente onde mouse tocar ao inves de criar variáveis e atribuir gatilho em ambas funções no arquivo JS) -->
-            <div  class="box-imagens" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)"> 
-                <p class="imgtext">Combatentes:</p>
-                <hr class="linha01">
+            <ul class="list_box" id="box_2">
                 
-                <p id="first-word-box01">Empunhadura de Ergros</p>
+                <p style="line-height: 2px; font-weight: bold">CONJURADORES</p> <!-- Titulo -->
 
-                <ul class="lista-box01">
-                    
-                    <p>Equilibrio de Samir</p>
-                    
-                    <p>Mão de Arás</p>
-                    
-                    <p>Rigidez de Marfim</p>
+                <hr class="vertical-line"> <!-- LINHA VERTICAL -->
 
-                    <p>Slasher</p>
-
-                    <p>Vórtice Crescente</p>
-                    
-                </ul>
-
-            
-            </div>
-            
-            <div class="box-livros" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)">
-                <p class="livrostext">Conjuradores:</p>
-                <hr class="linha02">
+                <p>Runas de Solomon</p>
                 
-                <p id="first-word-box02">Arcanismo das Ondinas</p>
+                <p>Potência Elemental Caótica</p>
 
-                <ul class="lista-box02">
-                    
-                    
-                    <p>As Runas de Solomon</p>
-                    
-                    <p>Potência Elemental Caótica</p>
-                    
-                    <p>Sigilo das 7 Barreiras Prismaticas</p>
+                <p>Sigilo das 7 Barreiras Prismáticas</p>
 
-                    <p>Sigilo dos 12 Daemons</p>
+                <p>Sigilo dos 12 Daemons</p>
 
-                    <p>Trapaças de Insignificância</p>
-                    
-                </ul>
-            
+                <p>Trapaça Arcana - Chamariz de Captura</p>
 
+                <p>Trapaça Arcana - Aura de Confusão Sensorial</p>
 
-            </div>
+            </ul>
 
-            <div class="box-manuais" onmouseenter="aumentarjanela(this)" onmouseleave="diminuirjanela(this)">
-                <p class="manuaistext">Especialistas:</p>
-                <hr class="linha03">
-                
-                <p class="first-word-box03"><a href="Especialistas/Alta Presteza/Alta Presteza.html">Alta Presteza</a></p>
+            <ul class="list_box" id="box_3">
 
-                <ul class="lista-box03">
-                    
-                    
-                    <p><a href="Especialistas/Frenesi Homicida/Frenesi Homicida.html" target="_self">Frenesi Homicida</a></p>
-                    
-                    <p><a href="Especialistas/Ímpeto Acelerado/index.html">Ímpeto Acelerado</a></p>
-                    
-                    <p>Mão do Coletor</p>
+                <p style="line-height: 2px; font-weight: bold;">ESPECIALISTAS</p> <!-- Titulo -->
 
-                    <p>Marca do Fanático</p>
+                <hr class="vertical-line"> <!-- LINHA VERTICAL -->
 
-                    <p>Passos Indecisos</p>
-                    
-                </ul>
-            
+                <p><a href="Especialistas/Alta Presteza/Alta Presteza.html">Alta Presteza</a></p>
 
+                <p><a href="Especialistas/Frenesi Homicida/Frenesi Homicida.html">Frenesi Homicida</a></p>
 
-            </div>
+                <p><a href="Especialistas/Ímpeto Acelerado/index.html">Ímpeto Acelerado</a></p>
 
+                <p>Mão do Coletor</p>
+
+                <p>Marca do Fanático</p>
+
+                <p>Passos Indecisos</p>
+
+            </ul>
 
         </div>
 
+           
+
         
 
+                
+
     </section>
+
+
+    <!-- Aqui começa propriedades MOBILE -->
+
 
     <footer>
 
