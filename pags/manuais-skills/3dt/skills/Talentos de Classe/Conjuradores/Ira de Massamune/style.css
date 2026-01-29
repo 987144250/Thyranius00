@@ -1,0 +1,215 @@
+body{
+    background-color: aliceblue;
+}
+
+header {
+    display: block;
+    margin: auto;
+    width: 1240px;
+    height: 70px;
+    background-color: aliceblue;
+   
+}
+
+header h2 { /* título da skill "Ímpeto Acelerado" */
+    text-align: center; 
+    font:bold 15pt cursive;
+    text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.5);
+}   
+
+p > span{
+    color: rgb(18, 35, 129);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+header span{
+    background-image: linear-gradient(to right, #0f1194f5, transparent);
+
+}
+
+header p{ /* REQUISITOS */
+    text-align: center;
+   
+
+}
+
+#descricao{
+    
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+#passiva{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#img {
+    margin-left: 10%;
+    margin-top: 130px;
+    display: flex;
+    
+    
+}
+
+#img02 {
+    margin: auto;
+    margin-right: 180px;
+    margin-top: -400px;
+    display: flex;
+    height: 400px;
+}
+
+
+#main{
+    display: flex;
+    
+}
+
+
+  
+
+
+
+section {
+    margin: auto;
+    margin-top: 15px;
+    text-indent: 20px;
+    background-color: rgb(182, 181, 218);
+    width: 1240px;
+    height: 1700px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+                                         /*Position: fixed NAO USAR POIS O ZOOM BUGA */
+    
+}
+
+#div {
+    display: flex;
+    
+}
+
+p {
+    font-size: 11pt;
+}
+
+/* ------------------------------------------ */
+
+.shidou, .coruja, .nanhou, .olho_fant, .chi_negro, .maha, .frene_acel, .nuhu{
+    background-color: rgba(16, 10, 104, 0.616);
+}
+
+.shidou_Nv1, .shidou_Nv2, .coruja_Nv1, .coruja_Nv2 , .nanhou_Nv1, .nanhou_Nv2, .olho_fant_Nv1, .olho_fant_Nv2, .chi_negro_Nv1, .chi_negro_Nv2, .maha_Nv1, .maha_Nv2, .frene_acel_Nv1, .frene_acel_Nv2, .nuhu_Nv1, .nuhu_Nv2{
+    color: rgb(13, 27, 90);
+    text-align: center;
+   
+}
+
+
+
+#skill01_text { /* Skill name 1 = Shidou */
+    text-indent: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: left;
+   
+}
+
+/* Obs: para aumentar o tamanho da tabela: aumente os espaços dos nomes de descrição acima. */
+
+#t01 { /* TABELA 1 - Shidou */
+        width: 400px;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin-left: 60px;
+        
+    }
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+th {
+    background-color: #f2f2f2;
+    
+    }
+
+
+
+#skill02_text { /* Skill name 2 = CORUJA */
+    text-indent: 20px;
+    margin-top: -333px;
+    margin-left: 55%;
+    text-align: left;
+    
+}
+
+#t02 { /* TABELA 2 - CORUJA */
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 59%;
+    margin-top: 5px;
+    
+    
+
+}
+
+#skill03_text { /* Skill name 3 = NAN'HOU */
+    text-indent: 20px;
+    margin-top: 54px;
+    text-align: left;
+    
+    
+}
+
+#t03 { /* TABELA 3 - NAN'HOU */
+    width: 250px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 5%;
+    margin-top: 10px;
+    
+    
+
+}
+
+
+#skill04_text { /* Skill name 4 = OLHO FANTASMA */
+    text-indent: 60px;
+    margin-top: -365px;
+    margin-left: 48%;
+    text-align: left;
+    
+}
+
+#t04 { /* TABELA 4 - OLHO FANTASMA */
+    width: 550px;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-left: 52%;
+    margin-top: 10px; 
+     
+
+}
+
+.chi_text { /* Skill name 5 = CHI Profano */
+    
+    margin-top: 100px;
+    margin-left: -120px;
+    
+}
+
+
+
+
+
