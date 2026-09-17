@@ -1,12 +1,32 @@
-function substituir() {
-    var frase00 = document.getElementById("frase0"); // Atribui uma variavel para a frase padrão em HTML
-    var rand = ["<b>NÃO ESQUECER A SENHA!</b>", "<b>NOOBs</b>"];     // Criar lista com novas frases a serem usadas
-    var indice = Math.floor(Math.random() * rand.length); // Criando alternador randomico (função math * quantia de itens na lista rand)
-    frase00.innerHTML = rand[indice];
+
+function login() { 
+    let passpius = 12185697
+    let passpaulin = 53225899
+    let passhob = 20005483
+    let passbruno = 56974420
+
+    let usuario = document.getElementById("usuario").value
+    let password = document.getElementById("senha").value
+    
+    if (usuario == "player" && password == passpius ) {
+            alert("BEM VINDO GILDA!!")
+            window.location.href = "pags/entrys/Aksuna/aksunaentry.html"
+    } 
+    
+        else if (usuario == "player" && password == passpaulin ) {
+            alert("BEM VINDO WILSON!!")
+            window.location.href = "pags/entrys/Will/willentry.html"
+    } 
+
+        else if (usuario == "player" && password == passhob ) {
+            alert("BEM VINDO APRENDIZ DO BRUNO!!")
+            window.location.href = "pags/entrys/Drak/drakeentry.html"
+    }
+
+        else if (usuario == "player" && password == passbruno ) {
+            alert("BEM VINDO NAMORADO DO RODRIGO!!")
+            window.location.href = "pags/entrys/yomi/yomientry.html"
+        } else{
+            alert("usuario incorreto")
+            }
 }
-
-setInterval(substituir, 2000); // Função do JS de repetição (2000 = 2 segundos aprox para alterar frase)
-
-// setInterval é uma função em JavaScript. Ela é uma função integrada à linguagem JavaScript que é usada para repetir a execução de uma função ou a avaliação de uma expressão em intervalos de tempo regulares.
-
-

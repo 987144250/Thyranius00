@@ -52,3 +52,16 @@ th {
     background-color:   rgba(232, 227, 100, 0.779);
 }
 
+#play_music{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    color: brown;
+    background-color: chocolate;
+    font: bold 9pt cursive;
+    text-align: center;
+    margin-left: 75%;
+    margin-top: -50px;
+}
+
+

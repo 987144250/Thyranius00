@@ -2,7 +2,7 @@
 
 cont = 1
 
-function gatilho() {
+function play() {
     let music = document.getElementById('musica')
     
     if(cont < 2) {
