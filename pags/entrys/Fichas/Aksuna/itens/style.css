@@ -1,0 +1,30 @@
+
+
+h1, h2 {
+    text-align: center;
+}
+
+#focos {
+    display: flex;
+    width: 500px;
+    
+    margin-left: 50%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#background {
+  font: normal 14pt arial;
+  width: 1400px;  
+  background-color: rgba(179, 174, 106, 0.541);
+}
+
+#wujay {
+    display: flex;
+    width: 320px;
+    margin-left: 15%;
+    margin-top: -450px;
+    padding-bottom: 50px;
+   
+   
+}
