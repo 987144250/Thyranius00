@@ -1,0 +1,36 @@
+section {
+  border: 3px solid black;
+  font: normal 14pt arial;
+  width: 1400px;  
+  height: 1400px;
+  background-color: rgba(179, 174, 106, 0.541);
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  margin-right: 2%;
+}
+
+
+
+
+
+
+
+/* MEDIA SMARTHPHONES */
+
+
+@media (max-width: 600px) {
+    
+section {
+  border: 3px solid black;
+  font: normal 14pt arial;
+  width: 447px;  
+  height: 1250px;
+  background-color: rgba(179, 174, 106, 0.541);
+}
+
+}
